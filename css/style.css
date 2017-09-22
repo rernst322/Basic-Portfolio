@@ -1,27 +1,127 @@
+
+
 body {
-	background-color: #777;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #999;
 }
 
-nav {
+#nav {
+	width: 100%;
+	border-color: #777;
+	border-bottom: solid;
+	height: 80px;
 	background-color: white;
-	font-family
+	font-family: Arial;
+	margin-bottom: 20px;
+	position: relative;
 }
 
-nav-ul {
-	
+#nav ul {
+	list-style-type: none;
+}
+
+.NavList {
+	clear: right;
+	float: left;
+	margin-left: 400px;
+
+}
+
+.Name {
+	font-size: 30px;
+	height: 50px;
+	width: 200px;
+	float: left;
+	padding: 10px;
+	background-color: rgb(61, 156, 148);
+}
+
+.Name h1 {
+	font-size: 30px;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h2 {
+	font-size: 25px;
+	line-height: 22px;
+}
+
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-.AboutMe {
-	
+#AboutMe {
+	width: 605px;
+	background-color: white;
+	top: 60px;
+	float: left;
+	padding: 10px;
+	margin-bottom: 100px;
+	margin-top: 5px;
 }
 
-.name {
-	background-color; #4aaa5;
+#Connect {
+	width: 275px;
+	float: right;
+	background-color: white;
+	padding: 20px;
+	margin:5px;
+
 }
+
+.MyPic {
+	float: left;
+}
+
+#AboutMe p {
+	clear: right;
+	line-height: 20px;
+}
+
+#AboutMe img {
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.ConnectImg {
+	margin: 10px;
+}
+
+.ConnectImg img {
+	margin: 5px;
+}
+
+#Connect h2 {
+	text-align: center;
+}
+
+
+
+footer {
+	clear: left;
+	width: 960px;
+	height: 70px;
+	background-color: rgb(83, 83, 83);
+	display: block;
+}
+
+footer p {
+	line-height: 50px;
+	text-align: center;
+
+}
+
+
