@@ -61,7 +61,7 @@ body {
 
 .Name {
 	height: 60px;
-	width: 240px;
+	width: 235px;
 	float: left;
 	padding: 10px;
 	background-color: rgb(61, 156, 148);
@@ -114,7 +114,7 @@ p {
 	width: 570px;
 	background-color: white;
 	float: left;
-	padding: 30px;
+	padding: 25px;
 	position: relative;
 	overflow: scroll;
 	margin-bottom: 50px;
@@ -123,11 +123,12 @@ p {
 }
 
 #Connect {
-	width: 275px;
+	width: 255px;
 	float: right;
 	background-color: white;
-	padding: 20px;
+	padding: 10px;
 	position: relative;
+	clear: right;
 
 }
 
@@ -155,7 +156,7 @@ p {
 }
 
 #Connect h2 {
-	text-align: center;;
+	text-align: center;
 }
 
 button {
@@ -178,6 +179,47 @@ input {
 textarea {
 	font-size: 90%;
 }
+
+#Portfolio {
+	width: 480px;
+	height: 300px;
+	padding: 40px;
+	background-color: ;
+}
+
+.ImgRow {
+	height: 220px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	width:200px;
+	float: left;
+	position: relative;
+
+}
+
+.words {
+	height: 35px;
+	background-color: rgb(61, 156, 148);
+	width: 200px;
+	top: 160px;
+	position: absolute;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+}
+
+
+.ImgRow h3 {
+	position: absolute;
+	top: 120px;
+	right: 60px;
+}
+
+.words:hover {
+	background-color: white;
+}
+
+
 
 footer {
 	clear: none;
