@@ -3,6 +3,7 @@
 body {
 	margin: 0 auto;
 	width: 100%;
+	height: 100%;
 	background-image: url("../assets/background.png");
 }
 
@@ -47,6 +48,7 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	padding: 30px;
+	overflow: scroll;
 }
 
 .NavList {
@@ -94,6 +96,11 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h3 {
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: rgb(102, 102, 102);
+}
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -102,12 +109,16 @@ p {
 .liltxt p {
 	font-size:11px;
 }
-#AboutMe {
-	width: 605px;
+
+#Main {
+	width: 570px;
 	background-color: white;
-	top: 60px;
 	float: left;
-	padding: 10px;
+	padding: 30px;
+	position: relative;
+	overflow: scroll;
+	margin-bottom: 50px;
+
 
 }
 
@@ -116,6 +127,7 @@ p {
 	float: right;
 	background-color: white;
 	padding: 20px;
+	position: relative;
 
 }
 
@@ -123,12 +135,12 @@ p {
 	float: left;
 }
 
-#AboutMe p {
+#Main p {
 	clear: right;
 	line-height: 25px;
 }
 
-#AboutMe img {
+#Main img {
 	margin-right: 15px;
 	margin-bottom: 10px;
 }
@@ -146,17 +158,37 @@ p {
 	text-align: center;;
 }
 
+button {
+	background-color: rgb(61, 156, 148);
+	border: none;
+	padding: 10px;
+	text-align: center;
+	display: inline block;
+	font-size: 15px;
+	font-color: black;
+}
+
+button:hover {
+	background-color: rgb( 102, 102, 102);
+}
+input {
+	font-size: 90%
+}
+
+textarea {
+	font-size: 90%;
+}
 
 footer {
-	clear: left;
+	clear: none;
 	height: 70px;
 	background-color: rgb(102,102,102);
-	display: block;
 	width: 100%;
-	position: absolute;
 	bottom: 0;
+	margin-top: 20px;
 	border-top: solid 6px;
 	border-top-color: rgb(61, 156, 148);
+	position: fixed;
 }
 
 .footer {
